@@ -7,7 +7,7 @@ from time import sleep
 
 class Collector(object): 
     def __init__(self):   
-        self.url = 'http://schemas.microsoft.com/win/2004/08/events/event' #Very important for namespace (xmlns), but it depends of your XML file                                
+        self.url = 'http://schemas.microsoft.com/win/2004/08/events/event' # Very important for namespace (xmlns), but it depends of your XML file                                
         pass
 
     def collect(self):
@@ -19,7 +19,7 @@ class Collector(object):
         for event in root.findall('{' + self.url + '}Event') :
             EventData = event.find('{' + self.url + '}EventData')
             Data = EventData.find('{' + self.url + '}Data').text
-            virus = Data.split(": ")[1]
+            virus = Data.split(": ")[1] # We have to split to get only numbers we want without text arround
             count_virus = virus.split("\n")[0]
             computer = Data.split(": ")[2]
             count_computer = computer.split("\n")[0]
