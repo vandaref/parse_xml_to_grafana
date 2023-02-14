@@ -62,7 +62,7 @@ To create your dashboard go to : http://YOURIP:3000.
 
 On Grafana, fill in the Prometheus data source with the address you have assigned (http://YOURIP:9090). 
 
-## Documentation
+## Sources
 [Make an exporter Prometheus in Python](https://www.dadall.info/article643/comment-prendre-un-peu-de-python-pour-faire-un-exporter-prometheus)
 
 [The ElementTree XML API](https://docs.python.org/3/library/xml.etree.elementtree.html)
