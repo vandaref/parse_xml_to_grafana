@@ -50,7 +50,7 @@ scrape_configs:
 Launch the Prometheus container and the Grafana container via Docker Desktop and then run the python script **parse_xml** in a Windows console.
 
 ```python
-python api.py
+python parse_xml.py
 ```
 
 To observe the metrics, go to : http://YOURIP:9555.
