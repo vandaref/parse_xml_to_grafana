@@ -1,0 +1,62 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Trend Micro Apex One Server" />
+      <EventID Qualifiers="*****">700</EventID>
+      <Level>*</Level>
+      <Task>*</Task>
+      <Keywords>*******</Keywords>
+      <TimeCreated SystemTime="*******" />
+      <EventRecordID>*******</EventRecordID>
+      <Channel>*******</Channel>
+      <Computer>*******</Computer>
+      <Security UserID="*******" />
+    </System>
+    <EventData>
+      <Data>Nombre de spywares/graywares: 0
+Nombre d'ordinateurs: 0
+
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Trend Micro Apex One Server" />
+      <EventID Qualifiers="*****">700</EventID>
+      <Level>*</Level>
+      <Task>*</Task>
+      <Keywords>*******</Keywords>
+      <TimeCreated SystemTime="*******" />
+      <EventRecordID>*******</EventRecordID>
+      <Channel>*******</Channel>
+      <Computer>*******</Computer>
+      <Security UserID="*******" />
+    </System>
+    <EventData>
+      <Data>Nombre de virus/programmes malveillants: 20
+Nombre d'ordinateurs: 3
+
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Trend Micro Apex One Server" />
+      <EventID Qualifiers="*****">700</EventID>
+      <Level>*</Level>
+      <Task>*</Task>
+      <Keywords>*******</Keywords>
+      <TimeCreated SystemTime="*******" />
+      <EventRecordID>*******</EventRecordID>
+      <Channel>*******</Channel>
+      <Computer>*******</Computer>
+      <Security UserID="*******" />
+    </System>
+    <EventData>
+      <Data>Nombre de spywares/graywares: 1
+Nombre d'ordinateurs: 1
+
+</Data>
+    </EventData>
+  </Event>
+</root>
