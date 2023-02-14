@@ -2,7 +2,7 @@
 
 Logs Monitoring : This project is used to parse an XML log file (here Trend Apex One log file) to export the data to Grafana using Prometheus.
 
-In this project there are : :
+In this project there are :
   - a python script that parses the XML file but also serves as a Prometheus collector and exporter  
   - a config file prometheus.yml 
   - the requirements
